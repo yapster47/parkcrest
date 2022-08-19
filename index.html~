@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naturlux</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/app.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
+
+    </head>
+
+  <!-- Javascript Files -->
+    <script src="css/app.js"></script>
+    
+    <body>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="imgs/logo2.png" alt="#" width=100 height=100 /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="show-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+			 <li class="nav-item">
+                            <a class="nav-link" href="#blog"> Information </a>
+
+			 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			   </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#before">Before You Come</a>
+                                <a class="dropdown-item" href="#wifi">Wifi </a>
+                                <a class="dropdown-item" href="#fragrance">Fragrance Free</a>
+                                
+                                <a class="dropdown-item" href="#clean"> Clean Karma </a>
+
+
+                                <a class="dropdown-item" href="#accidents">Accidents</a>
+                                <a class="dropdown-item" href="#checkout">Check Out </a>
+                               </li>
+<li>
+			   
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Amenities
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Smart TV</a>
+                                <a class="dropdown-item" href="#">Microwave </a>
+                                <a class="dropdown-item" href="#">Fire Pit</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"> Other stuff </a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Something Else</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                        <li class="nav-item book d-flex align-items-center">
+                            <a class="nav-link" href="#">book now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+	
+        <header id="home">
+
+	  <div class="small-container">
+          <!--      <form class="main-font-family text-center">
+                    <input type="search">
+                    <i class="fas fa-search"></i>
+                    <input type="submit" value="Search">
+                </form> -->
+                <div class="row">
+                  <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center">
+
+		    
+		    <h1 class="text-capitalize">Welcome to NaturLux</h1>
+
+                        <button><a href="#">About the House</a></button>
+                    </div>
+                </div>
+                <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
+                    <div id="headerslider" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item carousel-three active"></div>
+                        <div class="carousel-item carousel-two"></div>
+                        <div class="carousel-item carousel-three"></div>
+			<div class="carousel-item carousel-four"></div>
+			<div class="carousel-item carousel-five"></div>
+			<div class="carousel-item carousel-six"></div>
+			<div class="carousel-item carousel-seven"></div>
+			<div class="carousel-item carousel-eight"></div>
+			<div class="carousel-item carousel-nine"></div>
+			<div class="carousel-item carousel-ten"></div>
+			<div class="carousel-item carousel-eleven"></div>
+                      </div>
+                      <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                        <i class="fas fa-angle-double-left"></i>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                        <i class="fas fa-angle-double-right"></i>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
+            </div>
+            <div class="st-rec"></div>
+            <div class="rd-rec"></div>
+        </header>
+        
+        <div class="about lobster-font-family">
+            <div class="container">
+                <h2 id="about" class="text-center text-capitalize">About our house</h2>
+                <img src="imgs/shape.png">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+		    
+                        <h4>Natural, luxurious, family-friendly, and fragrance-free. </h4>
+                        <p>
+			  With a dedicated space to work, also great for executives and work-from-homers.
+			  With lots of bike-friendly conveniences, also great for bikers!
+			</p>
+			<p>
+			  Having stayed at Airbnbs since 2010, we have learned a lot about what makes a great space for travelers:
+			  cleanliness, comfort, location, and convenience.  So when we were able to purchase a home to create such a space,
+			  we purchased 
+			  
+
+			</p>
+
+                        <button><a href="#">Read more</a></button>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="img"></div>
+                    </div>
+
+ </div>
+<!-- Gallery section -->
+		    
+        <div class="gallery lobster-font-family" id="gallery">
+            <div class="container">
+                <h2 class="text-calitalize text-center">Our gallery</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="pic-one"><h4> Cook Well </h4></div>
+                        <div class="pic-two"><h4>Sleep Well </h4></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="pic-three active"><h4> Dine In </h4></div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="pic-four"><h4> Relax </h4></div>
+                        <div class="pic-five"><h4> Have Fun </h4></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- End of Gallery Section -->
+	
+<!-- Testimony section
+        
+        <div class="slider main-font-family">
+            <h2 class="text-center text-capitalize main-font-family">what our guests say</h2>
+w          <div id="slideToNext" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#slideToNext" data-slide-to="0" class="active"></li>
+              <li data-target="#slideToNext" data-slide-to="1"></li>
+              <li data-target="#slideToNext" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/pic7.png">
+                  <h5>jone due</h5>
+                  <p>It is a long established fact that a reader wil
+l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/pic7.png">
+                  <h5>jone due</h5>
+                  <p>It is a long established fact that a reader wil
+l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block">
+                    <img src="imgs/pic7.png">
+                  <h5>jone due</h5>
+                  <p>It is a long established fact that a reader wil
+l be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+-->
+
+ <!-- .services-section -->
+    <section id="information" class="classic-block dna-block bg-alabaster-white text-cod-black services-section">
+      <div class="classic-container dna-container alignwide">
+        <div class="classic-wrapper dna-wrapper">
+           <div class="classic-head"> 
+
+            <h2 class="dna-head"><span>House </span><br> Information </h2> 
+            </div>           
+          <div class="classic-body">
+            <div class="feature-block">
+              <ul>
+                <li>
+                  <div class="feature-counter">01</div>
+                  <div class="feature-body">
+                    <h3 class="feature-head" id="before">Before you come</h3>
+                    <p class="feature-detail">The weather here can be finicky. Bring lots of layers and rain gear. Check out all the events at the Momentary. See all the great things you can do in Bentonville, Rogers, and Bella Vista. </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-counter">02</div>
+                  <div class="feature-body">
+                    <h3 class="feature-head" id="wifi">Wifi</h3>
+                    <p class="feature-detail"> Network name and password are on the modem in the Master bedroom.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-counter">03</div>
+                  <div class="feature-body">
+                    <h3 class="feature-head" id="clean"> Clean Karma </h3>
+                    <p class="feature-detail"> We created this house with a lot of love and hard work. Please keep our house
+		    clean for other guests (and for your future selves). No shoes or pets on any of the furniture. We've provided complimentary slippers so you can leave your shoes at the door.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="feature-counter">04</div>
+                  <div class="feature-body">
+                    <h3 class="feature-head" id="accidents"> Accidents Happen! </h3>
+                    <p class="feature-detail"> We are compassionate, understanding people. Please let us know if anything breaks or stains. It's way better for everyone to let us know immediately.  </p>
+                  </div>
+                </li>
+	        <li>
+                  <div class="feature-counter">05</div>
+                  <div class="feature-body">
+                    <h3 class="feature-head" id="fragrance"> Fragrance-Free </h3>
+                    <p class="feature-detail"> We'd like to keep this home as free from artificial fragrances as possible. It's healthier for everyone, especially kids. So if you happen to spill anything perfumey anywhere, please let us know right away. </p>
+                  </div>
+		  <li>
+                  <div class="feature-counter">06</div>
+                  <div class="feature-body">
+                    <h3 class="feature-head" id="checkout"> Check-out </h3>
+                    <p class="feature-detail"> Please set the thermostat to  78 degrees Fahrenheit. If you have time, please put your dishes in the dishwasher and used towels in the washing machine. No need to turn either machine on. </p>
+                  </div>
+                </li>  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.services-section -->
+
+
+    
+    <section id="company" class="classic-block classic-block-reverse dna-block bg-alabaster-white text-cod-black speciality-section">
+      <div class="classic-container dna-container alignwide">
+        <div class="classic-wrapper dna-wrapper">
+          <div class="classic-head">
+            <h2 class="dna-head"><span> How Things </span><br> Work </h2>
+          </div>
+          <div class="classic-body">
+            <div class="speciality-block">
+              <ul>
+                <li>
+                  <div class="speciality-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-collection" viewBox="0 0 16 16">
+                      <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0  1-.5.5h-13z" />
+                    </svg>
+                  </div>
+                  <div class="speciality-body">
+                    <h5 class="speciality-title"> Samsung Smart TV</h5>
+                    <p> You have access to over 200 channels, but can also mirror your phone. Find instructions here: </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="speciality-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code" viewBox="0 0 16 16">
+                      <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z" />
+                    </svg>
+                  </div>
+                  <div class="speciality-body">
+                    <h5 class="speciality-title"> Microwave </h5>
+                    <p> This pretty microwave is actually pretty easy to use. For simple heating, just turn the dial to however long you want to use it, and press Start. It has a lot of other functionalities, which you can learn about here and here. </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="speciality-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tablet" viewBox="0 0 16 16">
+                      <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
+                      <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+                  </div>
+                  <div class="speciality-body">
+                    <h5 class="speciality-title">Coffee Maker</h5>
+                    <p> Here are instructions. </p>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="speciality-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mouse" viewBox="0 0 16 16">
+                      <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z" />
+                    </svg>
+                  </div>
+                  <div class="speciality-body">
+                    <h5 class="speciality-title"> Fire Pit</h5>
+                    <p>The propane tank is already attached. </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="speciality-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                    </svg>
+                  </div>
+                  <div class="speciality-body">
+                    <h5 class="speciality-title">Grill</h5>
+                    <p>  </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="speciality-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                      <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
+                    </svg>
+                  </div>
+                  <div class="speciality-body">
+                    <h5 class="speciality-title"> Heating/Cooling </h5>
+                    <p> The thermostat is located .... </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+
+</div></div>
+	
+	
+        <div class="contact main-font-family text-center">
+            <div class="container">
+                <h2 id="contact">Get in touch</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="contact-form">
+                            <form>
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <input type="text" placeholder="Phone">
+                                <textarea placeholder="Message"></textarea>
+                                <input type="submit" value="submit">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <h2 class="text-right"> Ask us anything! </h2>
+                        <img src="imgs/shape.png">
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        
+        <footer class="noto-font-family">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>What's near our house:</h3>
+                            <ul class="text-capitalize">
+                                <li><a href="#">Crystal Bridges</a></li>
+                                <li><a href="#">Momentary</a></li>
+                                <li><a href="#">Bella Vista </a></li>
+                                <li><a href="#">Rogers Water Park </a></li>
+                                <li><a href="#">Other Places  </a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3> Phone and email </h3>
+                           
+                       <p>
+                                (+01) 479-310-6969<br>
+                                slumber.peacefully@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 form">
+                            <h3>News letter</h3>
+                            <form>
+                                <input type="email" placeholder="Email">
+                                <input type="submit">
+                            </form>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="copyright noto-font-family">
+            <p>© 2022 All Rights Reserved. Design by <a href="http://www.naturlux.us">Naturlux.</a></p>
+        </div>
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(function () {
+                
+                'use strict';
+                
+                var winH = $(window).height();
+                
+                $('header').height(winH);
+                
+                $('.navbar ul.navbar-nav li a').on('click', function (e) {
+                    
+                    var getAttr = $(this).attr('href');
+                    
+                    e.preventDefault();
+                    $('html').animate({scrollTop: $(getAttr).offset().top}, 1000);
+                });
+            });
+        </script>
+    </body>
+</html>
