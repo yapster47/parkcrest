@@ -62,7 +62,7 @@ body {
     background-color: : rgba(140, 200, 140, 1);
     transform: skew(-30deg);
     padding: 5px 20px;
-    box-shadow: 1px 1px 10px #4e4e4e, -1px -1px 10px #4e4e4e;
+    box-shadow: 1px 1px 10px #011609, -1px -1px 10px #011609;
 }
 
 .navbar .book {
