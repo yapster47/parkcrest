@@ -263,7 +263,8 @@ button:focus {
 }
 
 a {
-	background-color: transparent
+    color: blue
+    background-color: transparent
 }
 
 a:hover,
