@@ -401,7 +401,7 @@ p {
 a,
 a:visited {
 	cursor: pointer;
-	color: var(--global-accent-color);
+	color: var(--global-highlight-color);
 	text-decoration: none
 }
 
