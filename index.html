@@ -442,18 +442,50 @@ l be distracted by the readable content of a page when looking at its layout. Th
 
 			<!-- <div class="col-lg-4 col-md-6 col-12"> -->
 			  
-<div>
+
+
+<script>
+  function getQueryParams(param) {
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    return urlSearchParams.get(param);
+  }
+
+  function updateIframeSrc() {
+    const iframe = document.getElementById("booking-iframe");
+    if (!iframe) return;
+
+    const checkin = getQueryParams("checkin");
+    const checkout = getQueryParams("checkout");
+    const adults = getQueryParams("adults");
+    const children = getQueryParams("children");
+    const infants = getQueryParams("infants");
+
+    let newSrc = iframe.src;
+    newSrc += newSrc.includes("?") ? "&" : "?";
+    newSrc += `checkin=${checkin}&checkout=${checkout}&adults=${adults}&children=${children}&infants=${infants}`;
+
+    iframe.src = newSrc;
+  }
+
+  window.addEventListener("load", updateIframeSrc);
+</script>
+
+<div class="container">
 <h3 id="book"> Book Direct to save money on  Airbnb or VRBO fees </h3>
 <script src="https://hospitable.b-cdn.net/direct-property-search-widget/hospitable-search-widget.prod.js"></script>
 <hospitable-direct-mps identifier="e1da16c8-75c9-4bd3-8a71-52420057ee0a" type="custom"></hospitable-direct-mps>
+</div>
 
+<div class="container">
+
+ <h3 id="abnb"> Book directly on Airbnb or VRBO </h3>
 <button><a href="https://airbnb.com/h/naturlux"> Book on Airbnb </a></button>
 <br>
 <br>
 <button><a href="https://www.vrbo.com/2909136?adultsCount=2&arrival=2022-11-11&childrenCount=2&departure=2022-11-13&unitId=3481176 "> Book on VRBO </a></button>
-
-
 </div>
+
+
 
 			<!--
                         <div class="col-lg-4 col-md-6 col-12 form">
