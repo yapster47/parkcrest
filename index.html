@@ -377,16 +377,33 @@ l be distracted by the readable content of a page when looking at its layout. Th
 
     </section>
 
-            <div class="about noto-font-family">
-            <div class="container">
-                <h2 id="about" class="text-center text-capitalize">Mountain Biking</h2>
-<div style="padding-bottom:56.25%; position:relative; display:block; width:100%">
-		<iframe width="100%" height="100%" src="https://www.youtube.com/embed/8wQNuXp1X-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="position:absolute; top:0; left:0"></iframe>
-		</div>
+
 
 
 	    </div>
 	    </div>
+
+
+<section>
+<div class="container">
+  <h3 id="sms"> Opt-in to SMS messages from us </h3>
+
+  <form method="post" action="https://forms.un-static.com/forms/8ba36b02d448b9ea4d302048af756f57ec84732d" type="contact form">
+  <input type="text" name="name" placeholder="Enter your name" required> 
+  
+  <input type="text" name="phone" placeholder="Enter your phone number" required>
+
+
+By hitting the Send button below, you agree to receive text messages from Mathema, LLC, at the phone number provided. Message and data rates may apply and message frequency varies.  Reply STOP to opt-out and HELP for help. We do not disclose your information to any third parties. View our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html"> Terms of Service </a>.
+  
+<button type="submit">Send</button>
+
+  </form>
+
+  </div>
+</section>
+
+
 
 
 <div class="contact main-font-family text-center">
@@ -444,69 +461,7 @@ l be distracted by the readable content of a page when looking at its layout. Th
                         </div>
 
 
-			<!-- <div class="col-lg-4 col-md-6 col-12"> -->
-			  
 
-
-<script>
-  function getQueryParams(param) {
-    const urlSearchParams = new URLSearchParams(window.location.search);
-    return urlSearchParams.get(param);
-  }
-
-  function updateIframeSrc() {
-    const iframe = document.getElementById("booking-iframe");
-    if (!iframe) return;
-
-    const checkin = getQueryParams("checkin");
-    const checkout = getQueryParams("checkout");
-    const adults = getQueryParams("adults");
-    const children = getQueryParams("children");
-    const infants = getQueryParams("infants");
-
-    let newSrc = iframe.src;
-    newSrc += newSrc.includes("?") ? "&" : "?";
-    newSrc += `checkin=${checkin}&checkout=${checkout}&adults=${adults}&children=${children}&infants=${infants}`;
-
-    iframe.src = newSrc;
-  }
-
-  window.addEventListener("load", updateIframeSrc);
-</script>
-
-
-
-<!--
-<div class="overlay">
-<div class="container">
-
-  <h3 id="book"> Book Direct </h3>
-  <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12">
-  <iframe id="booking-iframe" sandbox="allow-top-navigation allow-scripts allow-same-origin" style="width: 100%; height: 900px" frameborder="0" src="https://booking.hospitable.com/widget/9aeb0bb5-2bb2-4728-a9cc-3cdce0c13e28/1261992"></iframe>
-
-
-</div>
-</div>
-</div>
--->
-
-<div class="container">
-  <h3 id="sms"> Get check-in information via SMS </h3>
-
-  <form method="post" action="https://forms.un-static.com/forms/8ba36b02d448b9ea4d302048af756f57ec84732d">
-  <input type="text" name="name" placeholder="Enter your name" required> 
-  
-  <input type="text" name="phone" placeholder="Enter your phone number" required>
-  
-    By hitting the Send button below, you agree to receive text messages from Mathema, LLC, at the phone number provided. Message and data rates may apply and message frequency varies.  Reply STOP to opt-out and HELP for help. We do not disclose your information to any third parties. View our <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.
-  
-
-  <button type="submit">Send</button>
-  
-</form>
-
-</div>
 
 
 <div class="container">
