@@ -131,7 +131,7 @@ header button a {
 
 header form {
     position: relative;
-    width: 500px;
+    width: 100px;
     margin: 0 auto;
     margin-bottom: 50px;
     z-index: 50;
@@ -979,5 +979,6 @@ footer form input:last-of-type {
 .colA, .colB, .colC { padding: 10px; }
 .colA { background: #ffe6e6; }
 .colB { background: #e0e4ff; }
+
 
 
